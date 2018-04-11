@@ -21,7 +21,9 @@ export default class App extends Component<Props> {
       <View style={{
         width:200,
         height:200,
-        backgroundColor:'#ff6600'
+        backgroundColor:'#ff6600',
+        marginTop:25,
+        borderRadius:10
       }}></View>
     );
   }
