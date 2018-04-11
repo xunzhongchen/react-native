@@ -37,9 +37,11 @@ const style = StyleSheet.create({
     borderWidth:2,
     borderColor:'#543',
     borderStyle:'solid',//solid | dotted | dashed 
-    borderLeftWidth:3
-    
-    
+    borderLeftWidth:3,
+    position:'absolute',// default:relative | absolute
+    left:200,
+    display:'flex'// default:flex | none
+  
   
   },
   other:{
