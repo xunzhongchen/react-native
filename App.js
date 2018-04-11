@@ -18,13 +18,16 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={{
+      <View style={[{
         width:200,
         height:200,
         backgroundColor:'#ff6600',
-        marginTop:25,
+        marginTop:25 ,
         borderRadius:10
-      }}></View>
+      },{
+        marginLeft:25,
+        backgroundColor:'#00ff66'
+      }]}></View>
     );
   }
 }
