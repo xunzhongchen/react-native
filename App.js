@@ -18,7 +18,9 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={[style.container,style.other]}></View>
+      <View style={[style.container,style.other]}>
+        <View style={style.subBox}></View>
+      </View>
     );
   }
 }
@@ -29,16 +31,24 @@ const style = StyleSheet.create({
     width: 200,
     height: 200,
     backgroundColor: '#ff6600',
-    //marginTop: 25,
     borderRadius: 10,
-    margin:'25',//可以使用百分比 
-    //margin:"25 20 35 45",  非法报错 不支持 上 右 下 左  
-    marginHorizontal:40,//水平方向 
-    marginVertical:30//垂直方向
+    margin:25, 
+    padding:30,
+    borderWidth:2,
+    borderColor:'#543',
+    borderStyle:'solid',//solid | dotted | dashed 
+    borderLeftWidth:3
+    
+    
+  
   },
   other:{
     marginLeft: 25,
     backgroundColor: '#00ff66'
+  },
+  subBox:{
+    height:50,
+    backgroundColor:'#786'
   }
 })
 
