@@ -8,7 +8,7 @@
     Android        Java                      Android Studio
 - 优势：
     1. 性能好 
-    1. 体验佳
+    1. 体验佳
 - 劣势：
     1. 学习成本
     1. 开发成本
@@ -76,9 +76,10 @@
 - react-native 样式跟css很像,但还是有[区别]
 - 介绍 padding border属性, 不支持组合写法  平台兼容属性
 - 介绍 position display 属性
-- 文字必须放在 [Text]组件中,介绍文字的样式,介绍[shadow]属性应用
+- 文字必须放在 [Text]组件中,介绍文字的样式,介绍[shadow]属性应用
 
-
+### flex布局
+[Flex布局教程]
 
 
 [weex]:https://weex.incubator.apache.org/cn/
@@ -86,5 +87,6 @@
 [样式]:https://facebook.github.io/react-native/docs/view-style-props.html#style
 [Text]:https://facebook.github.io/react-native/docs/text.html
 [shadow]:https://facebook.github.io/react-native/docs/shadow-props.html
+[Flex布局教程]:http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
 
 
