@@ -71,17 +71,20 @@
 ### 常用样式
 - ios 布局从顶部开始 android布局从状态栏之下开始布局
 - 可以随意给一个组件任意的样式,使用jsx语法
-- 组件的style属性不仅可以是对象,还可以是数组,数组元素是对象,权重向后递增
+- 组件的style属性不仅可以是对象,还可以是数组,数组元素是对象,权重向后递增
 - 大多数我们不会在行内写样式，我们需要把样式抽离出来，可以使用StyleSheet接口，也是react-native推荐的方式,在react-native 底层优化过 会得到比较好的性能
 - react-native 样式跟css很像,但还是有[区别]
 - 介绍 padding border属性, 不支持组合写法  平台兼容属性
 - 介绍 position display 属性
+- 文字必须放在 [Text]组件中,介绍文字的样式,介绍[shadow]属性应用
 
 
 
 
 [weex]:https://weex.incubator.apache.org/cn/
 [React Native]:https://facebook.github.io/react-native/
-[样式]:./docs/style.md
+[样式]:https://facebook.github.io/react-native/docs/view-style-props.html#style
+[Text]:https://facebook.github.io/react-native/docs/text.html
+[shadow]:https://facebook.github.io/react-native/docs/shadow-props.html
 
 

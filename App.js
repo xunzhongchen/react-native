@@ -19,7 +19,10 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={[style.container,style.other]}>
-        <View style={style.subBox}></View>
+        <View style={style.subBox}>
+          <Text>一些文字</Text>
+        </View>
+        <Text style={style.text}>一些文字</Text>
       </View>
     );
   }
@@ -37,10 +40,13 @@ const style = StyleSheet.create({
     borderWidth:2,
     borderColor:'#543',
     borderStyle:'solid',//solid | dotted | dashed 
-    borderLeftWidth:3,
-    position:'absolute',// default:relative | absolute
-    left:200,
-    display:'flex'// default:flex | none
+    shadowColor:'red',
+    shadowOffset:{width:10,height:0},
+    shadowOpacity:0.5,
+    //ios 独有shadow
+    elevation:20 
+    //android 5.0 以上 独有 elevation
+
   
   
   },
@@ -51,6 +57,9 @@ const style = StyleSheet.create({
   subBox:{
     height:50,
     backgroundColor:'#786'
+  },
+  text:{
+    color:'red'
   }
 })
 
