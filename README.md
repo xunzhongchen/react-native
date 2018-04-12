@@ -84,6 +84,45 @@
 [css Flex]
 
 
+## 屏幕和单位
+
+    DPI         Dots Per Inch           每一英寸可以放置多少个点    android
+    PPI         Pixels Per Inch         每一英寸存在多少个像素      ios
+
+- 分辨率  
+![分辨率]
+- 尺寸  
+![尺寸]
+- ppi/dpi  
+![ppi]
+- 各种屏幕尺寸的设备
+![phone]
+- [设备像素比]
+
+    同尺寸设备  
+    同尺寸设备放置相同大小的图片  
+    设备像素比  
+    位图/矢量图  
+    PixelRatio 接口  
+- PT DP SP 
+
+    设备在160dpi的时候,一个物理像素显示一个像素信息,(android开发者规范里面规定的) 
+
+        160dpi，320*480的设备，横向显示320个像素信息，1dp=1px
+        320dpi，720*1280的设备，横向显示360个像素信息，1dp=2px
+
+        正常情况 PT=DP=SP
+
+                ios     android
+        长度    PT       DP
+        字体    PT       SP
+
+        备注:开发android应用 字体为大号字体 SP>DP
+
+![sb]
+
+
+
 [weex]:https://weex.incubator.apache.org/cn/
 [React Native]:https://facebook.github.io/react-native/
 [样式]:https://facebook.github.io/react-native/docs/view-style-props.html#style
@@ -93,5 +132,9 @@
 [资料]:https://github.com/jondot/awesome-react-native
 [官网]:https://facebook.github.io/react-native/
 [css Flex]:./docs/css_flex.md
-
-
+[分辨率]:./docs/image/fbl.png "分辨率"
+[尺寸]:./docs/image/cc.png "尺寸"
+[ppi]:./docs/image/ppi.png "ppi/dpi"
+[phone]:./docs/image/phone.png "phone"
+[设备像素比]:./docs/sbxsb.md
+[sb]:./docs/image/sb.png "设备"
