@@ -20,7 +20,13 @@ export default class App extends Component {
   render() {
     return (
       <View style={style.container}>
-        <ScrollView>
+        <View style={style.header}>
+          <Text>Home</Text>
+        </View>
+        <ScrollView
+          //style={style.scrollView}
+          //contentContainerStyle={style.scrollView}
+        >
           <Card />
           <Card />
           <Card />
@@ -38,6 +44,20 @@ const style = StyleSheet.create({
     flex: 1,
     backgroundColor: "#f5fcff",
     justifyContent: 'center'
+  },
+  header: {
+    paddingTop: 20,
+    height: 64,
+    alignItems: 'center',
+    backgroundColor: '#E83A59',
+    justifyContent: 'center',
+  },
+  scrollView: {
+    height: 300,
+    backgroundColor: 'red',
+    marginTop: 20,
+    marginBottom: 20,
+
   }
 })
 
