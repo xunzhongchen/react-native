@@ -121,7 +121,8 @@
 
 ![sb]
 
-
+## 一个卡片实例
+![Card]
 
 [weex]:https://weex.incubator.apache.org/cn/
 [React Native]:https://facebook.github.io/react-native/
@@ -138,3 +139,4 @@
 [phone]:./docs/image/phone.png "phone"
 [设备像素比]:./docs/sbxsb.md
 [sb]:./docs/image/sb.png "设备"
+[Card]:./docs/image/card.png "设备"
