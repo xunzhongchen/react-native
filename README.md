@@ -123,7 +123,7 @@
 
 ### 一个卡片实例
 
-![card]
+<img src='./docs/image/card.png'/>
 
 
 
