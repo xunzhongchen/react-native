@@ -121,12 +121,12 @@
 
 ![sb]
 
-
-
-![card]
+### 一个卡片实例
+![ka]
 
     
 
+[ka]:./docs/image/ka.png
 [weex]:https://weex.incubator.apache.org/cn/
 [React Native]:https://facebook.github.io/react-native/
 [样式]:https://facebook.github.io/react-native/docs/view-style-props.html#style
@@ -141,5 +141,5 @@
 [ppi]:./docs/image/ppi.png "ppi/dpi"
 [phone]:./docs/image/phone.png "phone"
 [设备像素比]:./docs/sbxsb.md
-[sb]:./docs/image/sb.png "设备" 
-[card]:./docs/image/card.png "卡片"
+[sb]:./docs/image/sb.png "设备"
+
