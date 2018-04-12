@@ -9,7 +9,8 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  ScrollView
 } from 'react-native';
 
 import Card from './card';
@@ -19,9 +20,14 @@ export default class App extends Component {
   render() {
     return (
       <View style={style.container}>
-        <Card/>
-        <Card/>
-        <Card/>
+        <ScrollView>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </ScrollView>
       </View>
     );
   }
@@ -29,9 +35,9 @@ export default class App extends Component {
 
 const style = StyleSheet.create({
   container: {
-    flex:1,
-    backgroundColor:"#f5fcff",
-    justifyContent:'center'
+    flex: 1,
+    backgroundColor: "#f5fcff",
+    justifyContent: 'center'
   }
 })
 
