@@ -40,7 +40,7 @@ export default class App extends Component<Props> {
 const style = StyleSheet.create({
   container: {
     //display:'flex',// flex | none
-    //flexDirection:'column',// row（css 默认） | row-reverse | column(rn 默认) | column-reverse;
+    //flexDirection:'row',// row（css 默认） | row-reverse | column(rn 默认) | column-reverse;
     //justifyContent:'space-around',//flex-start(默认) | flex-end | center | space-between | space-around;
     //flexWrap: 'nowrap',//nowrap (默认)| wrap | wrap-reverse; 
     //alignItems: 'flex-start',//flex-start | flex-end | center | baseline | stretch (默认);
@@ -54,9 +54,13 @@ const style = StyleSheet.create({
 
   s1:{
     backgroundColor:'#00f',
+    alignSelf:'flex-end',//auto | flex-start | flex-end | center | baseline | stretch;
+
   },
   s2:{
     backgroundColor:'#0f0',
+    flexGrow:1,//<number>; /* default 0 */
+    height:10
   },
   s3:{
     backgroundColor:'#ff0',
