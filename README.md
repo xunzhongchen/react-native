@@ -123,7 +123,7 @@
 
 ### 一个卡片实例
 
-[card]
+![card]
 
 
 
@@ -141,5 +141,5 @@
 [ppi]:./docs/image/ppi.png "ppi/dpi"
 [phone]:./docs/image/phone.png "phone"
 [设备像素比]:./docs/sbxsb.md
-[sb]:./docs/image/sb.png "设备"
+[sb]:./docs/image/sb.png "设备" 
 [card]:./docs/image/card.png "卡片"
