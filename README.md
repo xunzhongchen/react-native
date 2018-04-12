@@ -117,7 +117,7 @@
         长度    PT       DP
         字体    PT       SP
 
-        备注:开发android应用 字体为大号字体 SP>DP
+        备注:开发android应用 字体为大号字体 SP>DP
 
 ![sb]
 
