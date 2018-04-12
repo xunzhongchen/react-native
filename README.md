@@ -123,9 +123,7 @@
 
 ### 一个卡片实例
 
-<img src='./docs/image/card.png'/>
-
-
+[card]
 
 
 
