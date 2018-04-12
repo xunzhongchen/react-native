@@ -23,17 +23,21 @@ export default class App extends Component {
         <View style={style.header}>
           <Text>Home</Text>
         </View>
-        <ScrollView
+
+        <View style={style.scrollView}>
+          <ScrollView
           //style={style.scrollView}
           //contentContainerStyle={style.scrollView}
-        >
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </ScrollView>
+          >
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </ScrollView>
+        </View>
+
       </View>
     );
   }
@@ -54,9 +58,9 @@ const style = StyleSheet.create({
   },
   scrollView: {
     height: 300,
-    backgroundColor: 'red',
-    marginTop: 20,
-    marginBottom: 20,
+    // backgroundColor: 'red',
+    // marginTop: 20,
+    // marginBottom: 20,
 
   }
 })
