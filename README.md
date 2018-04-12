@@ -1,7 +1,8 @@
 # react-native
+- 学习[资料]
+- [官网]地址
 
 ## 移动端应用
-
 ### Native APP
     平台／系统       原生语言                   开发IDE
     IOS            Objective-C/Swift         Xcode
@@ -79,7 +80,8 @@
 - 文字必须放在 [Text]组件中,介绍文字的样式,介绍[shadow]属性应用
 
 ### flex布局
-[Flex布局教程]
+[Flex布局教程]  
+[css Flex]
 
 
 [weex]:https://weex.incubator.apache.org/cn/
@@ -88,5 +90,8 @@
 [Text]:https://facebook.github.io/react-native/docs/text.html
 [shadow]:https://facebook.github.io/react-native/docs/shadow-props.html
 [Flex布局教程]:http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+[资料]:https://github.com/jondot/awesome-react-native
+[官网]:https://facebook.github.io/react-native/
+[css Flex]:./docs/css_flex.md
 
 
