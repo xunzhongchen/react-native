@@ -121,13 +121,11 @@
 
 ![sb]
 
-### 一个卡片实例  
+
+
 ![card]
 
     
-
-
-
 
 [weex]:https://weex.incubator.apache.org/cn/
 [React Native]:https://facebook.github.io/react-native/
